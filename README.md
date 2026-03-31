@@ -55,12 +55,14 @@ Ejemplo 1. Algortimo para lavarse los dientes:
 1. Cepillar
 1. Enjuagar
 
-Ejercicio 1: Algoritmo para cambiar una llanta o preparar un café.
+Ejemplo 2. Algoritmo para preparar un café.
+
+Ejercicio 1. Algoritmo para cambiar una llanta.
 
 
 ## ✍ ¿Qué es el pseudocódigo?
 
-El pseudocódigo es una forma de escribir los pasos de un programa utilizando nuestro propio lenguaje pero siguiendo la estructura de la programación.
+> El pseudocódigo es una forma de escribir los pasos de un programa utilizando nuestro propio lenguaje pero siguiendo la estructura de la programación.
 
 No es un lenguaje real/formal.  
 Es una herramienta para pensar/acomodar ideas.
