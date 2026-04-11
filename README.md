@@ -256,3 +256,47 @@ Un ejemplo clásico de **matemática y lógica.**
 
 ### Ejercicios para Casa
 
+> //Se los debo aún jejeje.
+
+--
+
+## ✍ Clase 4: Tu primer contacto con Python en Colab
+
+> ¡Bienvenidx a tu primera clase **programando con Python**!
+
+
+**Google Colaboratory** es un entorno idóneo para empezar, no necesitas instalar nada: todo se hace en tu navegador.
+
+Y usas los recursos de las computadoras de Google.
+
+### Colab
+
+1. Cómo funciona Colab
+1. Tu primer programa: «Hola Mundo».
+1. Variables
+
+**Ejemplo 1:** 
+
+```
+# Variables (guardamos información)
+nombre = "Luis"          # texto → tipo string (str)
+edad = 30                # número entero → tipo int
+altura = 1.75            # número con decimal → tipo float
+es_estudiante = True     # verdadero/falso → tipo bool
+
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("Altura:", altura)
+print("¿Es estudiante?", es_estudiante).
+```
+
+
+## ✍ Clase 5: Cálculos con Python
+
+> Abre un cuaderno en **Google Colab**. 
+
+Buenas prácticas: 
+1. Ponerle nombre al archivo.
+1. Conectarse al back de Google.
+
+### Símbolos Básicos
