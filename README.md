@@ -291,7 +291,7 @@ print("¿Es estudiante?", es_estudiante).
 ```
 
 
-## ✍ Clase 5: Cálculos con Python
+## ✍ Clase 5 y 6: Comentarios, Variables, Imprimir, Guardar y Operaciones
 
 > Abre un cuaderno en **Google Colab**. 
 
@@ -299,4 +299,126 @@ Buenas prácticas:
 1. Ponerle nombre al archivo.
 1. Conectarse al back de Google.
 
-### Símbolos Básicos
+---
+
+### Código Inicial
+
+**Comentario**
+
+Todo lo que va después de un **#** hasta el final de la línea es considerado un comentario y es ignorado totalmente por el intérprete. 
+
+
+```
+# Esto es un comentario y se ignora completamente.
+
+print("Hola")   # Esto también es un comentario.
+
+""" 
+Esto es un comentario multilínea
+y también es ignorado como código ejecutable.
+"""
+```
+
+---
+
+ **Variable**
+
+> Una **variable** es un nombre que usas para guardar un valor y poder usarlo después.
+
+Una variable es como una caja donde guardas un valor.
+Tú le pones un nombre a esa caja, y dentro puedes guardar información (un número, un texto, una lista, etc.).
+
+**Ejmplos**
+```
+nombre = "Luis"          # guarda un texto
+edad = 36                # guarda un número
+altura = 1.82            # guarda un número decimal
+esta_estudiando = True   # guarda Verdadero o Falso
+```
+**Cómo funciona:**
+
+A la izquierda pones el nombre de la variable.
+A la derecha pones el valor que quieres guardar.
+El signo **=** significa: "guarda esto dentro de esta caja".
+
+**Reglas básicas de nombres de variables:**
+
+- Debe empezar con letra o guión bajo (_).
+- Solo puede tener letras, números y guiones bajos.
+- No puede tener espacios ni caracteres especiales (¡@#$/ etc.).
+- Python distingue mayúsculas de minúsculas (Edad es diferente a edad).
+
+**Ejemplos buenos:**
+
+- nombre
+- edad_usuario
+- usuario8
+
+**Ejemplos malos:**
+
+- 2edad (no puede empezar con número)
+- mi nombre (no puede tener espacio)
+- total$ (no puede tener $)
+
+---
+
+**Imprimir en pantalla (print)** 
+```
+print("Hola mundo")
+print("Mi nombre es Luis")
+print("Tengo", 25, "años")   # puedes mezclar texto y números
+```
+
+**Guardar información del usuario (input)**
+```
+nombre = input("¿Cómo te llamas? ")
+edad = input("¿Cuántos años tienes? ")
+
+print("Bienvenido", nombre, "ahora sabemos que tienes", edad, "años")
+```
+
+**Importante:**
+
+**input()** siempre guarda el dato como texto (string).
+Si quieres un número, conviértelo:
+
+```
+edad = int(input("¿Cuántos años tienes? "))   # convierte a número entero
+altura = float(input("¿Cuánto mides? "))      # convierte a número decimal
+```
+
+**Operadores Aritméticos básicos en Python**
+
+```
++
+-
+*
+/
+//
+%
+**
+```
+
+**Ejemplos usando Operadores**
+
+```
+
+```
+a = 10
+b = 3
+
+print(a + b)   # 13
+print(a - b)   # 7
+print(a * b)   # 30
+print(a / b)   # 3.333...
+print(a // b)  # 3
+print(a % b)   # 1
+print(a ** b)  # 1000
+---
+
+**Ejemplos**
+
+**Ejercicios en vivo**
+
+**Ejercicios para casa**
+
