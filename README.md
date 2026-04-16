@@ -53,6 +53,7 @@ Parte, en donde vemos el entorno de trabajo y aprendemos a crear nuestros primer
 - [Clase 7: Operaciones Matemáticas](#-clase-7-operaciones-matemáticas)
 
 ---
+
 # 🎉 Hoy es el Inicio de tu camino en la Programación
 
 ## ✍ Clase 1: Algoritmo
@@ -68,20 +69,21 @@ Imagina que es una *receta* de cocina: si sigues los pasos en el orden correcto,
 1. Cepillar
 1. Enjuagar
 
-**Ejemplo 2:** Algoritmo para preparar un café.
+**Ejercicio 1:** Algoritmo para preparar un café.
 
-**Ejercicio 1:** Algoritmo para cambiar una llanta.
+**Ejercicio para Casa:** Algoritmo para cambiar una llanta.
 
 ### ¿Qué es programar?
 
 > Programar es dar instrucciones claras y ordenadas a una computadora para resolver un problema.
 
-Una computadora es muy rápida…
-pero necesita instrucciones exactas.
+Una computadora es muy rápida… pero necesita instrucciones exactas.
+
+---
 
 ## ✍ Clase 2: Pseudocódigo
 
-> El **pseudocódigo** es una forma de escribir los pasos de un programa utilizando nuestro propio lenguaje pero siguiendo la estructura de la programación.
+> El **pseudocódigo**, es una forma de escribir los pasos de un programa utilizando nuestro propio lenguaje, pero siguiendo la estructura de la programación.
 
 No es un lenguaje real/formal.  
 Es una herramienta para pensar/acomodar ideas.
@@ -137,29 +139,28 @@ Fin
 
 **Ejercicio 2:** Pseudocódigo para verificar si el resto de dividir el número entre 2 es cero.
 
-**Ejercicio 3:** Pseudocódigo para iniciar una variable en 1 e incrementarla hasta llegar a 10.
-
 ---
 
 ### Ejercicios para Casa
 
-**Ejercicio 1:** Pseudocódigo para recibir un número y multiplicarlo por los índices del 1 al 10.
+**Ejercicio 1:** Pseudocódigo para iniciar una variable en 1 e incrementarla hasta llegar a 10.
 
 **Ejercicio 2:** Pseudocódigo para sumar números ingresados por el usuario hasta que introduzca un cero.
 
 **Ejercicio 3:** Pseudocódigo para sumar N cantidad de notas y dividir el total entre N.
 
-**Ejercicio extra:** Pseudocódigo para comparar cada número nuevo con un valor "máximo" guardado y actualizarlo si el nuevo es mayor.
-
----
+--- 
 
 ## ✍ Clase 3: Diagramas de Flujo
 
 > Un **diagrama de flujo** es un dibujo que muestra los pasos de un proceso de principio a fin. 
 
+> Los diagramas de flujo son representaciones visuales de un algoritmo. Utilizan figuras geométricas para indicar el tipo de acción y flechas para marcar el orden de ejecución.
+
 Imaginalo como un "mapa del tesoro" para resolver un problema o completar una tarea.
 
 ### Símbolos Básicos
+
 Para que todos entiendan lo mismo, usamos figuras específicas para cada tipo de acción:
 
 - **Óvalo (Inicio/Fin):** Indica dónde empieza y dónde termina el camino.
@@ -172,7 +173,7 @@ Para que todos entiendan lo mismo, usamos figuras específicas para cada tipo de
 
 ---
 
-**Ejemplo 1: ¿Funciona la lámpara?**
+**Ejemplo 1: Diagrama de flujo para utilizar una lámpara.**
 
 Este es el ejemplo clásico para entender cómo la lógica de un diagrama nos ayuda a tomar decisiones:
 
@@ -194,7 +195,7 @@ Este es el ejemplo clásico para entender cómo la lógica de un diagrama nos ay
 
 ---
 
-### ¿Para qué sirve?
+### ¿Para qué sirven los Diagramas de Flujo?
 
 - **Claridad:** Ayuda a ver pasos que quizás habías olvidado.
 
@@ -205,6 +206,7 @@ Este es el ejemplo clásico para entender cómo la lógica de un diagrama nos ay
 ---
 
 ### Consejos para crearlos
+
 - **Sigue una dirección:** Normalmente se dibujan de arriba hacia abajo o de izquierda a derecha.
 
 - **Sé breve:** Usa frases cortas dentro de las figuras.
@@ -212,25 +214,24 @@ Este es el ejemplo clásico para entender cómo la lógica de un diagrama nos ay
 - **Evita el desorden:** Intenta que las flechas no se crucen demasiado entre sí.
 
 ---
----
 
-### Ejercicios
-
-#### **1. Preparar una taza de café**
+**Ejemplo 2: Diagrama de Flujo para preparar una taza de café.**
 
 Este es un proceso **lineal** (paso a paso).
 
-- **Inicio**
+1. **Inicio**
 
-- **Proceso:** Poner café en la taza.
+1. **Proceso:** Poner café en la taza.
 
-- **Proceso:** Calentar agua.
+1. **Proceso:** Calentar agua.
 
-- **Proceso:** Verter agua en la taza.
+1. **Proceso:** Verter agua en la taza.
 
-- **Fin**
+1. **Fin**
 
-#### **2. Cruzar la calle**
+---
+
+**Ejemplo 3: Diagrama de Flujo para Cruzar la calle.**
 
 Aquí introducimos una **decisión** basada en la seguridad.
 
@@ -246,30 +247,37 @@ Aquí introducimos una **decisión** basada en la seguridad.
 
 - **Fin**
 
-#### **3. ¿El número es par o impar?**
+---
 
-Un ejemplo clásico de **matemática y lógica.**
+**Ejemplo 4: Diagrama de Flujo para saber si un número es par o impar.**
 
-- **Inicio**
+1. **Inicio**
 
-- **Proceso:** Leer el número (ej. el 7).
+1. **Proceso:** Leer el número (ej. el 7).
 
-- **Decisión:** ¿El número es divisible entre 2?
+1. **Decisión:** ¿El número es divisible entre 2?
 
    - **Sí:** Mostrar "Es Par".
 
    - **No:** Mostrar "Es Impar".
 
-- **Fin**
+1. **Fin**
 
 ### Ejercicios para Casa
 
---
+**Ejercicio 1: Diagrama de Flujo para, dado el promedio de un alumno, determinar si aprobó (calificación mayor o igual a 6).**
+
+**Ejercicio 2: Diagrama de Flujo para comparar dos números distintos y decir cuál es el más grande.**
+
+**Ejercicio 3: Diagrama de Flujo para calcular el factorial de un número (multiplicar un número por todos los anteriores hasta el 1).**
+
+**Ejercicio 4: Diagrama de Flujo para leer los tres lados de un triángulo y determinar si es Equilátero (3 iguales), Isósceles (2 iguales) o Escaleno (todos distintos).**
+
+---
 
 ## ✍ Clase 4: Tu primer contacto con Python en Colab
 
-> ¡Bienvenidx a tu primera clase **programando con Python**!
-
+> ¡Bienvenidx a tu primera clase **programando con Python.**!
 
 **Google Colaboratory** es un entorno idóneo para empezar, no necesitas instalar nada: todo se hace en tu navegador.
 
@@ -280,8 +288,8 @@ Y usas los recursos de las computadoras de Google.
 [Enlace directo a Colab](https://colab.research.google.com)
 
 **Buenas Prácticas:**
-1. Darle un nombre al archivo
-1. Conectarse al back de Google
+1. Darle un nombre al archivo.
+1. Conectarse al back de Google.
 
 **Código Final de la Clase 4:** 
 
@@ -298,6 +306,12 @@ print("Altura:", altura)
 print("¿Es estudiante?", es_estudiante).
 ```
 
+### Ejercicios para Casa
+
+**Ejercicio 1: blablabla**
+
+---
+
 ## ✍ Clase 5: Comentarios, Variables e Imprimir
 
 ## Abre un cuaderno en **Google Colab.** 
@@ -305,8 +319,8 @@ print("¿Es estudiante?", es_estudiante).
 [Enlace directo a Colab](https://colab.research.google.com)
 
 **Buenas Prácticas:**
-1. Darle un nombre al archivo
-1. Conectarse al back de Google
+1. Darle un nombre al archivo.
+1. Conectarse al back de Google.
 
 ---
 
@@ -315,7 +329,6 @@ print("¿Es estudiante?", es_estudiante).
 **Comentario**
 
 Todo lo que va después de un **#** hasta el final de la línea es considerado un comentario y es ignorado totalmente por el intérprete. 
-
 
 ```
 # Esto es un comentario y se ignora completamente.
@@ -378,6 +391,12 @@ print("Mi nombre es Luis")
 print("Tengo", 25, "años")   # puedes mezclar texto y números
 ```
 
+### Ejercicios para Casa
+
+**Ejercicio 1: ........**
+
+---
+
 ## ✍ Clase 6: Más sobre Variables e Imprimir, y Guardar
 
 Abre un cuaderno en **Google Colab**. 
@@ -414,7 +433,7 @@ Cada uno sirve para guardar un tipo de información distinta:
 
 ### Guardar información del usuario
 
-> Para **guardar** la información que ingrese el usuario se usa la función **input()**
+> Para **guardar** la información que ingrese el usuario se usa la función **input().**
 ```
 nombre = input("¿Cómo te llamas? ")
 edad = input("¿Cuántos años tienes? ")
@@ -444,14 +463,15 @@ altura = float(input("¿Cuánto mides? "))      # convierte a número decimal
 | `%`      | Módulo (resto)          | `10 % 3`         | `1`          |
 | `**`     | Potencia (exponente)    | `2 ** 3`         | `8`          |
 
-
 ---
 
 **Ejemplos**
 
 **Ejercicios en vivo**
 
-**Ejercicios para casa**
+### Ejercicios para Casa
+
+**Ejercicio 1: ........**
 
 ---
 
@@ -469,4 +489,10 @@ altura = float(input("¿Cuánto mides? "))      # convierte a número decimal
 | Tupla            | `tuple`          | Colección ordenada que no se puede cambiar | `(1, 2, 3)`                          |
 | Diccionario      | `dict`           | Datos en forma de clave y valor          | `{"nombre": "Luis", "edad": 25}`     |
 | Conjunto         | `set`            | Colección de elementos únicos            | `{"rojo", "azul", "verde"}`          |
+
+### Ejercicios para Casa
+
+**Ejercicio 1: ........**
+
+---
 
