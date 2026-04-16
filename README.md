@@ -36,20 +36,21 @@ Ninguno.
 
 ## 📅 Cronograma de Temas
 
-### Parte 1. Los Fundamentos
-Esta semana nos enfocamos en construir los cimientos de la lógica de programación.
+### Parte 1. Los Fundamentos de la Programación
+
+En esta parte, nos enfocamos en construir los cimientos de la lógica de programación.
 
 - [Clase 1: Algoritmo](#-clase-1-algoritmo)
 - [Clase 2: Pseudocódigo](#-clase-2-pseudocódigo)
 - [Clase 3: Diagramas de Flujo](#-clase-3-diagramas-de-flujo)
 
-### Parte 2. Los Fundamentos
-Semana en donde vemos el entorno de trabajo y aprendemos a crear nuestros primeros programas.
+### Parte 2. Los Fundamentos del Lenguaje Python
+Parte, en donde vemos el entorno de trabajo y aprendemos a crear nuestros primeros programas.
 
 - [Clase 4: Tu primer contacto con Python en Colab](#-clase-4-tu-primer-contacto-con-python-en-colab)
 - [Clase 5: Comentarios, Variables e Imprimir](#-clase-5-comentarios-variables-e-imprimir)
 - [Clase 6: Más sobre Variables e Imprimir, y Guardar](#-clase-6-más-sobre-variables-e-imprimir-y-guardar)
-- [Clase 7: Operaciones Matemáticas]()
+- [Clase 7: Operaciones Matemáticas](#-clase-7-operaciones-matemáticas)
 
 ---
 # 🎉 Hoy es el Inicio de tu camino en la Programación
@@ -263,8 +264,6 @@ Un ejemplo clásico de **matemática y lógica.**
 
 ### Ejercicios para Casa
 
-> //Se los debo aún jejeje.
-
 --
 
 ## ✍ Clase 4: Tu primer contacto con Python en Colab
@@ -385,7 +384,7 @@ Abre un cuaderno en **Google Colab**.
 
 [Enlace directo a Colab](https://colab.research.google.com)
 
-Buenas prácticas: 
+**Buenas prácticas:** 
 1. Ponerle nombre al archivo.
 1. Conectarse al back de Google.
 
