@@ -1,16 +1,16 @@
-# 🐍 Curso Intensivo: Python desde Cero 
+# 🐍 Curso: Python desde Cero para Análisis de Datos
 
-#### Bienvenido al repositorio oficial del curso 'Python desde Cero' impartido por Luis Loher.
+#### Bienvenidx al repositorio oficial del curso impartido por Luis Loher.
 
-👨‍💻 Modalidad: En línea (Google Meet)  
-🕘 Horario Python paso a paso: 8-9 pm (México)   
-🕙 Horario Python para Análisis de Datos: 9-10 pm (México)   
+👨‍💻 Modalidad: En línea (Google Meet)     
+🕙 Horario: 9-10 pm (México)   
 ⏳ Duración: 3 meses   
 🎯 Nivel: Principiantes absolutos   
-📃 Constancia de Participación   
+📃 Certificado  
 
 📝 Formulario de Inscripción [Enlace](https://forms.gle/nbmyjGGiVyjwoYtb7)   
-🤝 Grupo de WhatsApp: [Enlace](https://chat.whatsapp.com/CRsOAtI2PzsJELa6JMK0HC)
+🤝 Grupo de WhatsApp del Curso: [Enlace](https://chat.whatsapp.com/CRsOAtI2PzsJELa6JMK0HC)   
+🤝 Grupo de WhatsApp sobre Análisis de Datos: [Enlace](https://chat.whatsapp.com/E0rW2PSjzBs6saGvV2RWYS)
 
 ## 🚀 ¿Por qué aprender a programar?
 
@@ -19,14 +19,6 @@
 - Es una habilidad altamente demandada
 - Te permite crear tus propias herramientas
 - Es el lenguaje de hoy y del futuro
-
-## 📅 Cronograma de Temas
-### Semana 1. 
-Esta semana nos enfocamos en construir los cimientos de la lógica de programación.
-
-- Clase 1: Algoritmo 
-- Clase 2: Pseudocódigo
-- Clase 3: Diagramas de Flujo
 
 ## 📚 Evaluación
 
@@ -42,10 +34,25 @@ Si algo no entiendes: pregunta.
 ## 🛠️ Requisitos Previos
 Ninguno.
 
+## 📅 Cronograma de Temas
+
+### Parte 1. Los Fundamentos
+Esta semana nos enfocamos en construir los cimientos de la lógica de programación.
+
+- [Clase 1: Algoritmo](#-clase-1-algoritmo)
+- [Clase 2: Pseudocódigo](#-clase-2-pseudocódigo)
+- [Clase 3: Diagramas de Flujo](#-clase-3-diagramas-de-flujo)
+
+### Parte 2. Los Fundamentos
+Semana en donde vemos el entorno de trabajo y aprendemos a crear nuestros primeros programas.
+
+- [Clase 4: Tu primer contacto con Python en Colab](#-clase-4-tu-primer-contacto-con-python-en-colab)
+- [Clase 5: Comentarios, Variables e Imprimir](#-clase-5-comentarios-variables-e-imprimir)
+- [Clase 6: Más sobre Variables e Imprimir, y Guardar](#-clase-6-más-sobre-variables-e-imprimir-y-guardar)
+- [Clase 7: Operaciones Matemáticas]()
+
 ---
----
-# 🎉 Bienvenidxs al Mundo de la Programación
-#### Hoy empezamos a pensar como programadores
+# 🎉 Hoy es el Inicio de tu camino en la Programación
 
 ## ✍ Clase 1: Algoritmo
 
@@ -271,11 +278,13 @@ Y usas los recursos de las computadoras de Google.
 
 ### Colab
 
-1. Cómo funciona Colab
-1. Tu primer programa: «Hola Mundo».
-1. Variables
+[Enlace directo a Colab](https://colab.research.google.com)
 
-**Ejemplo 1:** 
+**Buenas Prácticas:**
+1. Darle un nombre al archivo
+1. Conectarse al back de Google
+
+**Código Final de la Clase 4:** 
 
 ```
 # Variables (guardamos información)
@@ -290,14 +299,15 @@ print("Altura:", altura)
 print("¿Es estudiante?", es_estudiante).
 ```
 
+## ✍ Clase 5: Comentarios, Variables e Imprimir
 
-## ✍ Clase 5 y 6: Comentarios, Variables, Imprimir, Guardar y Operaciones
+## Abre un cuaderno en **Google Colab.** 
 
-> Abre un cuaderno en **Google Colab**. 
+[Enlace directo a Colab](https://colab.research.google.com)
 
-Buenas prácticas: 
-1. Ponerle nombre al archivo.
-1. Conectarse al back de Google.
+**Buenas Prácticas:**
+1. Darle un nombre al archivo
+1. Conectarse al back de Google
 
 ---
 
@@ -321,7 +331,7 @@ y también es ignorado como código ejecutable.
 
 ---
 
- **Variable**
+**Variable**
 
 > Una **variable** es un nombre que usas para guardar un valor y poder usarlo después.
 
@@ -369,7 +379,43 @@ print("Mi nombre es Luis")
 print("Tengo", 25, "años")   # puedes mezclar texto y números
 ```
 
-**Guardar información del usuario (input)**
+## ✍ Clase 6: Más sobre Variables e Imprimir, y Guardar
+
+Abre un cuaderno en **Google Colab**. 
+
+[Enlace directo a Colab](https://colab.research.google.com)
+
+Buenas prácticas: 
+1. Ponerle nombre al archivo.
+1. Conectarse al back de Google.
+
+---
+
+### Tipos de Datos Iniciales en Python
+
+En Python tenemos diferentes tipos de datos.   
+Cada uno sirve para guardar un tipo de información distinta:   
+- Números (int y float)
+- Textos (str)
+- Verdadero o falso (bool)
+- Estructuras para guardar varios datos juntos (list, tuple, dict, set)
+  
+---  
+ ### Tipos de Datos más importantes (Primera clase)
+
+| Tipo de dato     | Nombre en Python | Descripción                              | Ejemplo                              |
+|------------------|------------------|------------------------------------------|--------------------------------------|
+| Entero           | `int`            | Números sin decimales                    | `5`, `42`, `-10`                     |
+| Decimal          | `float`          | Números con decimales                    | `3.14`, `0.5`, `-2.75`               |
+| Texto            | `str`            | Cadenas de texto                         | `"Hola"`, `'Python'`                 |
+| Booleano         | `bool`           | Verdadero o Falso                        | `True`, `False`                      |
+| Lista            | `list`           | Colección ordenada de elementos          | `[1, 2, 3]`, `["manzana", "pera"]`  |
+
+---
+
+### Guardar información del usuario
+
+> Para **guardar** la información que ingrese el usuario se usa la función **input()**
 ```
 nombre = input("¿Cómo te llamas? ")
 edad = input("¿Cuántos años tienes? ")
@@ -387,33 +433,19 @@ edad = int(input("¿Cuántos años tienes? "))   # convierte a número entero
 altura = float(input("¿Cuánto mides? "))      # convierte a número decimal
 ```
 
-**Operadores Aritméticos básicos en Python**
+### Operadores Aritméticos en Python
 
-```
-+
--
-*
-/
-//
-%
-**
-```
+| Operador | Nombre                  | Ejemplo          | Resultado    |
+|----------|-------------------------|------------------|--------------|
+| `+`      | Suma                    | `5 + 3`          | `8`          |
+| `-`      | Resta                   | `10 - 4`         | `6`          |
+| `*`      | Multiplicación          | `6 * 7`          | `42`         |
+| `/`      | División                | `10 / 2`         | `5.0`        |
+| `//`     | División entera         | `10 // 3`        | `3`          |
+| `%`      | Módulo (resto)          | `10 % 3`         | `1`          |
+| `**`     | Potencia (exponente)    | `2 ** 3`         | `8`          |
 
-**Ejemplos usando Operadores**
 
-```
-
-```
-a = 10
-b = 3
-
-print(a + b)   # 13
-print(a - b)   # 7
-print(a * b)   # 30
-print(a / b)   # 3.333...
-print(a // b)  # 3
-print(a % b)   # 1
-print(a ** b)  # 1000
 ---
 
 **Ejemplos**
@@ -421,4 +453,21 @@ print(a ** b)  # 1000
 **Ejercicios en vivo**
 
 **Ejercicios para casa**
+
+---
+
+## ✍ Clase 7: Operaciones Matemáticas
+
+### Tipos de Datos en Python (versión 2)
+
+| Tipo de dato     | Nombre en Python | Descripción                              | Ejemplo                              |
+|------------------|------------------|------------------------------------------|--------------------------------------|
+| Entero           | `int`            | Números sin decimales                    | `5`, `42`, `-10`                     |
+| Decimal          | `float`          | Números con decimales                    | `3.14`, `0.5`, `-2.75`               |
+| Texto            | `str`            | Cadenas de texto                         | `"Hola"`, `'Python'`, `"123"`        |
+| Booleano         | `bool`           | Verdadero o Falso                        | `True`, `False`                      |
+| Lista            | `list`           | Colección ordenada de elementos          | `[1, 2, 3]`, `["manzana", "pera"]`  |
+| Tupla            | `tuple`          | Colección ordenada que no se puede cambiar | `(1, 2, 3)`                          |
+| Diccionario      | `dict`           | Datos en forma de clave y valor          | `{"nombre": "Luis", "edad": 25}`     |
+| Conjunto         | `set`            | Colección de elementos únicos            | `{"rojo", "azul", "verde"}`          |
 
