@@ -50,7 +50,7 @@ Parte, en donde vemos el entorno de trabajo y aprendemos a crear nuestros primer
 - [Clase 4: Tu primer contacto con Python en Colab](#-clase-4-tu-primer-contacto-con-python-en-colab)
 - [Clase 5: Comentarios, Variables e Imprimir](#-clase-5-comentarios-variables-e-imprimir)
 - [Clase 6: Más sobre Variables e Imprimir, y Guardar](#-clase-6-más-sobre-variables-e-imprimir-y-guardar)
-- [Clase 7: Operaciones Matemáticas](#-clase-7-operaciones-matemáticas)
+- [Clase 7: Operadores de Comparación, Lógicos y de Asignación](#-clase-7-operadores-de-comparación-lógicos-y-de-asignación)
 
 ---
 
@@ -475,7 +475,7 @@ altura = float(input("¿Cuánto mides? "))      # convierte a número decimal
 
 ---
 
-## ✍ Clase 7: Operaciones Matemáticas
+## ✍ Clase 7: Operadores de Comparación, Lógicos y de Asignación
 
 ### Tipos de Datos en Python (versión 2)
 
@@ -490,9 +490,185 @@ altura = float(input("¿Cuánto mides? "))      # convierte a número decimal
 | Diccionario      | `dict`           | Datos en forma de clave y valor          | `{"nombre": "Luis", "edad": 25}`     |
 | Conjunto         | `set`            | Colección de elementos únicos            | `{"rojo", "azul", "verde"}`          |
 
-### Ejercicios para Casa
+---
 
-**Ejercicio 1: ........**
+### Tarea
+
+T1: Estudia las definiciones de cada tipo de dato.
 
 ---
 
+### Operadores de Comparación
+
+Sirven para comparar valores.  
+El resultado siempre será:
+
+- `True` = Verdadero  
+- `False` = Falso
+
+---
+
+#### Tabla de Operadores de Comparación
+
+| Operador | Significado | Ejemplo |
+|---------|------------|--------|
+| `==` | Igual que | `5 == 5` |
+| `!=` | Diferente de | `5 != 3` |
+| `>` | Mayor que | `8 > 2` |
+| `<` | Menor que | `2 < 8` |
+| `>=` | Mayor o igual | `7 >= 7` |
+| `<=` | Menor o igual | `4 <= 9` |
+
+---
+
+### Ejemplos
+
+```
+print(5 == 5)   # True
+
+print(10 != 3)   # True
+
+print(8 > 20)   # False
+
+print(15 <= 15)   # True
+
+edad = 18
+print(edad >= 18)   # True
+
+```
+
+---
+
+### Tabla de Operadores Lógicos en Python
+
+Sirven para unir condiciones.
+
+| Operador | Significado | Ejemplo | Resultado |
+|---------|------------|--------|----------|
+| `and` | Verdadero si ambas condiciones se cumplen | `5 > 2 and 8 > 3` | `True` |
+| `and` | Falso si una condición no se cumple | `5 > 2 and 8 < 3` | `False` |
+| `or` | Verdadero si al menos una se cumple | `5 > 2 or 8 < 3` | `True` |
+| `or` | Falso si ninguna se cumple | `1 > 5 or 8 < 3` | `False` |
+| `not` | Invierte el resultado | `not 5 > 2` | `False` |
+| `not` | Invierte el resultado | `not 3 > 8` | `True` |
+
+---
+
+### Ejemplos
+
+```
+print(5 > 2 and 10 > 3)
+
+print(5 > 2 and 10 < 3)
+
+print(8 < 2 or 10 > 5)
+
+print(1 > 5 or 2 > 9)
+
+print(not 5 > 2)
+
+edad = 22
+print(edad >= 18 and edad <= 30)
+
+```
+
+### Tabla de Operadores de Asignación en Python
+
+Sirven para guardar o modificar valores.
+
+| Operador | Descripción | Ejemplo | Equivale a |
+|---------|-------------|--------|-----------|
+| `=` | Asigna un valor | `x = 5` | `x = 5` |
+| `+=` | Suma y asigna | `x += 3` | `x = x + 3` |
+| `-=` | Resta y asigna | `x -= 2` | `x = x - 2` |
+| `*=` | Multiplica y asigna | `x *= 4` | `x = x * 4` |
+| `/=` | Divide y asigna | `x /= 2` | `x = x / 2` |
+| `//=` | División entera y asigna | `x //= 3` | `x = x // 3` |
+| `%=` | Módulo y asigna | `x %= 2` | `x = x % 2` |
+| `**=` | Potencia y asigna | `x **= 3` | `x = x ** 3` |
+
+---
+
+### Ejemplos
+
+```
+x = 10
+x += 5
+print(x)
+
+x = 20
+x -= 8
+print(x)
+
+x = 4
+x *= 3
+print(x)
+
+x = 16
+x /= 4
+print(x)
+
+saldo = 100
+saldo += 50
+saldo -= 20
+print(saldo)
+
+```
+
+---
+
+### Ejercicios en Vivo
+
+Compartir captura de pantalla en el grupo.
+
+---
+
+**Ejercicio 1**
+```
+a = 8
+b = 3
+
+print(a > b)
+print(a == b)
+print(a < b)
+```
+
+---
+
+**Ejercicio 2**
+```
+edad = 25
+
+print(edad >= 18 and edad < 60)
+```
+
+---
+
+**Ejercicio 3**
+```
+puntos = 10
+puntos += 5
+puntos *= 2
+
+print(puntos)
+```
+
+---
+
+### Tarea
+
+Recuerda, se cube al formulario durante la clase en vivo.
+
+T2: Son los siguientes 4 ejercicios:
+
+```
+print(7 != 7)
+print(10 > 3 and 2 < 5)
+print(not 8 < 3)
+
+x = 50
+x -= 10
+print(x)
+```
+
+---
