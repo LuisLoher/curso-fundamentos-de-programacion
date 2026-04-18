@@ -657,7 +657,7 @@ print(puntos)
 
 ### Tarea
 
-Recuerda, se cube al formulario durante la clase en vivo.
+Recuerda, se sube al formulario durante la clase en vivo.
 
 T2: Son los siguientes 4 ejercicios:
 
