@@ -51,6 +51,7 @@ Parte, en donde vemos el entorno de trabajo y aprendemos a crear nuestros primer
 - [Clase 5: Comentarios, Variables e Imprimir](#-clase-5-comentarios-variables-e-imprimir)
 - [Clase 6: Más sobre Variables e Imprimir, y Guardar](#-clase-6-más-sobre-variables-e-imprimir-y-guardar)
 - [Clase 7: Operadores de Comparación, Lógicos y de Asignación](#-clase-7-operadores-de-comparación-lógicos-y-de-asignación)
+- [Clase 8: Introducción a la Toma de Decisiones](#-clase-8-introducción-a-la-toma-de-decisiones)
 
 ---
 
@@ -672,3 +673,299 @@ print(x)
 ```
 
 ---
+
+## ✍ Clase 8: Introducción a la Toma de Decisiones
+
+🎯 **Objetivo de la clase**   
+Aprender a usar condicionales para que un programa **tome decisiones** según una condición.
+
+---
+
+### 📌 ¿Qué es un condicional?
+
+> Un condicional permite ejecutar código **solo si algo se cumple**.
+
+**Ejemplo cotidiano:**
+
+- Si llueve → llevo paraguas ☔  
+- Si tengo hambre → como 🍔  
+- Si apruebo → celebro 🎉
+
+**En Python usamos:**
+
+```python
+if
+elif
+else
+````
+
+---
+
+### 1. Estructura básica: `if`
+
+```python
+edad = 18
+
+if edad >= 18:
+    print("Eres mayor de edad")
+```
+
+### Explicación:
+
+* `if` significa **si**
+* `edad >= 18` es la condición
+* Si es verdadera, se ejecuta el `print()`
+
+---
+
+### Resultado:
+
+```python
+Eres mayor de edad
+```
+
+---
+
+### 2. Importancia de la indentación
+
+**Python usa espacios o tabulación para indicar bloques.**
+
+✅ Correcto:
+
+```python
+if 5 > 2:
+    print("Sí se cumple")
+```
+
+❌ Incorrecto:
+
+```python
+if 5 > 2:
+print("Error")
+```
+
+---
+
+### 3. Uso de `else`
+
+`else` significa: **si no se cumple lo anterior**
+
+```python
+edad = 16
+
+if edad >= 18:
+    print("Mayor de edad")
+else:
+    print("Menor de edad")
+```
+
+---
+
+### Resultado:
+
+```python
+Menor de edad
+```
+
+---
+
+### 4. Uso de `elif`
+
+Significa: **si no, pero si...**
+
+```python
+calificacion = 8
+
+if calificacion == 10:
+    print("Excelente")
+elif calificacion >= 7:
+    print("Aprobado")
+else:
+    print("Reprobado")
+```
+
+---
+
+### Resultado:
+
+```python
+Aprobado
+```
+
+---
+
+### 5. Ejemplos sencillos
+
+**Ejemplo 1**
+
+```python
+numero = 5
+
+if numero > 0:
+    print("Número positivo")
+```
+
+---
+
+**Ejemplo 2**
+
+```python
+temperatura = 35
+
+if temperatura > 30:
+    print("Hace calor")
+else:
+    print("Clima agradable")
+```
+
+---
+
+**Ejemplo 3**
+
+```python
+saldo = 100
+
+if saldo >= 50:
+    print("Compra permitida")
+else:
+    print("Saldo insuficiente")
+```
+
+---
+
+### 6. Condicionales con operadores lógicos
+
+```python
+edad = 25
+
+if edad >= 18 and edad <= 30:
+    print("Edad dentro del rango")
+```
+
+---
+
+### 7. Ejercicios Resueltos
+
+**Ejercicio 1**
+
+```python
+numero = -2
+
+if numero > 0:
+    print("Positivo")
+else:
+    print("No positivo")
+```
+
+### Resultado:
+
+```python
+No positivo
+```
+
+---
+
+**Ejercicio 2**
+
+```python
+precio = 80
+
+if precio >= 100:
+    print("Producto premium")
+else:
+    print("Producto económico")
+```
+
+---
+
+**Ejercicio 3**
+
+```python
+usuario = "admin"
+
+if usuario == "admin":
+    print("Acceso concedido")
+else:
+    print("Acceso denegado")
+```
+
+---
+
+### 8. Mini Ejercicios para Practicar
+
+### Hazlos tú:
+
+### 1.
+
+```python
+edad = 20
+```
+
+Si es mayor o igual a 18, imprime `"Puede entrar"`.
+
+---
+
+### 2.
+
+```python
+nota = 6
+```
+
+Si nota >= 7 imprime `"Aprobado"`, si no `"Reprobado"`.
+
+---
+
+### 3.
+
+```python
+temperatura = 10
+```
+
+Si es menor a 15 imprime `"Hace frío"`.
+
+---
+
+### 9. Aplicación a Datos 📊
+
+```python
+ventas = 1500
+
+if ventas > 1000:
+    print("Buen mes de ventas")
+else:
+    print("Mes regular")
+```
+
+---
+
+### 🧠 Resumen Final
+
+| Estructura | Uso             |
+| ---------- | --------------- |
+| `if`       | Si se cumple    |
+| `else`     | Si no se cumple |
+| `elif`     | Otra condición  |
+
+---
+
+### 🚀 Reto Final
+
+Haz un programa con:
+
+```python
+ingresos = 5000
+gastos = 3200
+```
+
+Si ingresos son mayores a gastos imprime:
+
+```python
+Hay ganancias
+```
+
+Si no:
+
+```python
+Hay pérdidas
+```
+
