@@ -52,6 +52,7 @@ Parte, en donde vemos el entorno de trabajo y aprendemos a crear nuestros primer
 - [Clase 6: Más sobre Variables e Imprimir, y Guardar](#-clase-6-más-sobre-variables-e-imprimir-y-guardar)
 - [Clase 7: Operadores de Comparación, Lógicos y de Asignación](#-clase-7-operadores-de-comparación-lógicos-y-de-asignación)
 - [Clase 8: Introducción a la Toma de Decisiones](#-clase-8-introducción-a-la-toma-de-decisiones)
+- [Clase 9: Toma de Decisiones (Condicionales)](#-clase-9-toma-de-decisiones-condicionales)
 
 ---
 
