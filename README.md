@@ -969,3 +969,127 @@ Si no:
 Hay pérdidas
 ```
 
+
+## ✍ Clase 9: Toma de Decisiones (Condicionales)
+
+**Ejercicios en Vivo** - Enfoque: análisis de datos y lógica aplicada
+
+Elije 3 ejercicios para realizar en vivo y explicar la creación de uno de ellos.
+
+Los otros 7 ejercicios se quedan de tarea.
+
+---
+
+**1. Validación de Edad para Encuesta**
+
+Solicita la edad de una persona.  
+
+- Si tiene menos de 18 años, mostrar: `Menor de edad`
+- Si tiene entre 18 y 59 años, mostrar: `Adulto`
+- Si tiene 60 o más, mostrar: `Adulto mayor`
+
+---
+
+**2. Clasificación de Temperatura**
+
+Pide una temperatura en grados Celsius.
+
+- Menor a 10 → `Frío`
+- Entre 10 y 25 → `Templado`
+- Mayor a 25 → `Caluroso`
+
+---
+
+**3. Evaluación de Ventas**
+
+Solicita el monto vendido por un empleado.
+
+- Si vendió menos de 5000 → `Bajo rendimiento`
+- Entre 5000 y 10000 → `Buen rendimiento`
+- Más de 10000 → `Excelente rendimiento`
+
+---
+
+**4. Número Par Positivo**
+
+Pide un número entero.
+
+- Si es positivo y par, mostrar: `Número válido`
+- Si no, mostrar: `Número no válido`
+
+---
+
+**5. Descuento en Compra**
+
+Solicita el total de compra.
+
+- Si compra es mayor o igual a 1000, aplicar 15% descuento.
+- Si es menor, aplicar 5%.
+
+Mostrar total final.
+
+---
+
+**6. Clasificación de Calificación**
+
+Solicita una calificación de 0 a 100.
+
+- Menor de 60 → `Reprobado`
+- 60 a 79 → `Aprobado`
+- 80 a 94 → `Bueno`
+- 95 a 100 → `Excelente`
+
+---
+
+**7. Detección de Outlier Simple**
+
+Pide un número.
+
+- Si es menor a 0 o mayor a 100, mostrar: `Dato atípico`
+- En otro caso: `Dato normal`
+
+---
+
+**8. Acceso al Sistema**
+
+Solicita usuario y contraseña.
+
+- Si usuario = `"admin"` y contraseña = `"1234"` → `Acceso concedido`
+- Si no → `Acceso denegado`
+
+---
+
+**9. Clasificación de IMC**
+
+Solicita peso (kg) y altura (m).  
+Calcula IMC = peso / altura²
+
+- Menor de 18.5 → `Bajo peso`
+- 18.5 a 24.9 → `Normal`
+- 25 a 29.9 → `Sobrepeso`
+- 30 o más → `Obesidad`
+
+---
+
+**10. Bono por Productividad**
+
+Solicita cantidad de tareas completadas.
+
+- Menos de 5 → Sin bono
+- 5 a 9 → Bono de $500
+- 10 o más → Bono de $1000
+
+---
+
+**Extra: Reto**
+
+En todos los ejercicios:
+
+- Usa `input()`
+- Convierte datos con `int()` o `float()`
+- Usa `if`, `elif`, `else`
+- Muestra resultados con `print()`
+
+---
+
+
