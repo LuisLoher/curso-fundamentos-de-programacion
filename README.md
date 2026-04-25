@@ -52,7 +52,8 @@ Parte, en donde vemos el entorno de trabajo y aprendemos a crear nuestros primer
 - [Clase 6: Más sobre Variables e Imprimir, y Guardar](#-clase-6-más-sobre-variables-e-imprimir-y-guardar)
 - [Clase 7: Operadores de Comparación, Lógicos y de Asignación](#-clase-7-operadores-de-comparación-lógicos-y-de-asignación)
 - [Clase 8: Introducción a la Toma de Decisiones](#-clase-8-introducción-a-la-toma-de-decisiones)
-- [Clase 9: Toma de Decisiones (Condicionales)](#-clase-9-toma-de-decisiones-condicionales)
+- [Clase 9: Toma de Decisiones (Condicionales)](#-clase-9-condicionales-y-blucle-for)
+- [Clase 10: Más sobre el blucle for](#-clase-10-más-sobre-el-blucle-for)
 
 ---
 
@@ -971,7 +972,7 @@ Hay pérdidas
 ```
 
 
-## ✍ Clase 9: Toma de Decisiones (Condicionales)
+## ✍ Clase 9: Condicionales y Blucle for
 
 **Ejercicios en Vivo** - Enfoque: análisis de datos y lógica aplicada
 
@@ -1093,4 +1094,132 @@ En todos los ejercicios:
 
 ---
 
+### ¿Qué es `for`?
 
+> El `for` es una estructura repetitiva que sirve para **recorrer elementos** o **repetir acciones varias veces**.
+
+Se usa cuando quieres trabajar con:
+
+- listas
+- textos
+- tuplas
+- rangos
+- diccionarios
+- datos en general
+
+---
+
+### Sintaxis básica
+
+```python
+for variable in iterable:
+    instrucciones
+```
+
+**Ejemplo**
+
+```python
+for numero in [1, 2, 3]:
+    print(numero) # 1 2 3
+```    
+
+---
+
+## ✍ Clase 10: Más sobre el blucle for
+
+> El `for` es una estructura de repetición que permite ejecutar un bloque de código varias veces.
+
+Se usa principalmente para:
+
+- Recorrer listas
+- Recorrer textos
+- Trabajar con rangos de números
+- Procesar datos
+- Automatizar tareas repetitivas
+
+---
+
+**Ejemplo 1**
+
+```python
+for numero in [0, 1, 2, 3, 4, 5]:
+    print(numero) # 0 1 2 3 4 5
+```   
+
+**¿Cómo se interpreta?**   
+Para cada número dentro de la lista, ejecuta el bloque de código.
+
+---
+
+**Ejemplo 2**. Recorrer una lista
+
+```python
+frutas = ["manzana", "pera", "uva"]
+
+for fruta in frutas:
+    print(fruta)     # manzana pera uva
+``` 
+
+---
+
+**Ejemplo 3**. Recorrer un texto
+
+```python
+for letra in "python":
+    print(letra)    # p y t h o n
+``` 
+
+---
+
+**Ejemplo 4**. Usar range()
+   
+range() genera una secuencia de números.   
+Del 0 al 4
+```python
+for i in range(5):
+    print(i)       # 0 1 2 3 4
+``` 
+
+---
+
+**Ejemplo 5**. Usando range()
+   
+Del 1 al 5
+```python
+for i in range(1, 6):
+    print(i)      # 1 2 3 4 5
+``` 
+
+---
+
+**Ejemplo 6**. Usando range()
+   
+Con saltos de 2 en 2
+```python
+for i in range(0, 11, 2):
+    print(i)     # 0 2 4 6 8 10
+``` 
+
+---
+
+**Ejemplo 7**. Usando range()
+   
+**for** con condicionales
+
+```python
+for numero in range(1, 6):
+    if numero % 2 == 0:
+        print(numero)    # 2 4
+``` 
+
+---
+
+### Resumen
+
+| Código            | Significado       |
+| ----------------- | ----------------- |
+| `for x in lista:` | Recorre una lista |
+| `for x in texto:` | Recorre letras    |
+| `range(5)`        | Del 0 al 4        |
+| `range(1,6)`      | Del 1 al 5        |
+| `range(0,10,2)`   | Saltos de 2       |
