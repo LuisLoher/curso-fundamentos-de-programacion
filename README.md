@@ -55,6 +55,11 @@ Parte, en donde vemos el entorno de trabajo y aprendemos a crear nuestros primer
 - [Clase 9: Toma de Decisiones (Condicionales)](#-clase-9-condicionales-y-blucle-for)
 - [Clase 10: Más sobre el blucle for](#-clase-10-más-sobre-el-blucle-for)
 
+### Parte 3. Los Fundamentos del Lenguaje Python
+Lista de ejercicios diseñada para reforzar los temas del curso: desde la lógica pura hasta la implementación en Python.
+
+- [Clase 11: Ejercicios de Fundamentos de Programación y Python](#-clase-11-ejercicios-de-fundamentos-de-programación-y-python)
+
 ---
 
 # 🎉 Hoy es el Inicio de tu camino en la Programación
@@ -1223,3 +1228,89 @@ for numero in range(1, 6):
 | `range(5)`        | Del 0 al 4        |
 | `range(1,6)`      | Del 1 al 5        |
 | `range(0,10,2)`   | Saltos de 2       |
+
+---
+
+## ✍ Clase 11: Ejercicios de Fundamentos de Programación y Python
+
+### Bloque 1: Lógica y Algoritmos (Pensamiento Computacional)
+
+**Enfocados en la Clase 1, 2 y 3 del curso.**
+
+1. **Algoritmo cotidiano:** Escribe los pasos detallados para enviar un paquete por correo.
+
+1. **Pseudocódigo de Área:** Crea el pseudocódigo para calcular el área de un rectángulo pidiendo base y altura.
+
+1. **Diagrama de Flujo Lógico:** Diseña un diagrama que represente el proceso de decidir si salir de casa dependiendo de si llueve y si tienes paraguas.
+
+1. **Intercambio de valores:** Escribe un algoritmo para intercambiar los valores de dos variables A y B usando una variable auxiliar.
+
+1. **Cajero Automático (Lógica):** Escribe el pseudocódigo para retirar dinero, validando si el saldo es suficiente.
+
+---
+
+### Bloque 2: Variables y Operadores en Python
+
+**Basados en las Clases 4, 5, 6 y 7.**
+
+6. **Variables personales:** Crea variables para tu nombre, edad y ciudad, e imprímelas en una sola frase usando f-strings.
+   
+7. **Calculadora de IMC:** Pide el peso (kg) y la altura (m) y calcula el Índice de Masa Corporal: $IMC = peso / altura^2$.
+   
+8. **Operadores de comparación:** Escribe un programa que pida dos números y devuelva True si el primero es mayor o igual al segundo.
+   
+9.  **Días a segundos:** Crea un script que convierta un número de días ingresado por el usuario a segundos.
+    
+10. **Formateo de precios:** Pide el precio de un producto y aplica un descuento del 15%. Muestra el precio final con solo dos decimales.
+
+---
+
+### Bloque 3: Toma de Decisiones (Condicionales)
+
+**Basados en las Clases 8 y 9.**
+
+11. **Mayor de tres:** Pide tres números y determina cuál es el mayor de todos.
+
+12. **Aprobado o Reprobado:** Pide una calificación. Si es mayor a 60, muestra "Aprobado", de lo contrario "Reprobado".
+
+13. **Clasificador de números:** Determina si un número es positivo, negativo o cero.
+
+14. **Calculadora básica:** Pide dos números y una operación (+, -, *, /). Realiza la operación correspondiente usando if-elif-else.
+
+15. **Día de la semana:** Pide un número del 1 al 7 y muestra el nombre del día correspondiente (1 = Lunes, etc.).
+
+16. **Año Bisiesto:** Crea un programa que detecte si un año es bisiesto (divisible entre 4 y no entre 100, o divisible entre 400).
+
+17. **Sistema de Becas:** Un estudiante califica si su promedio es > 90 y su edad es < 25. Usa operadores lógicos and.
+
+18. **Tienda de Mascotas:** Si el usuario compra más de 3 artículos, aplica un 10% de descuento; si compra más de 5, aplica un 20%.
+
+---
+
+### Bloque 4: Bucles e Iteraciones (Ciclo For)
+
+**Basados en las Clases 9 y 10.**
+
+19. **Conteo simple:** Imprime los números del 1 al 20 usando un bucle for.
+
+20. **Suma acumulada:** Calcula la suma de todos los números del 1 al 100.
+
+21. **Pares en un rango:** Imprime todos los números pares entre 0 y el número que el usuario elija.
+
+22. **Tabla de multiplicar dinámica:** Pide un número e imprime su tabla del 1 al 12.
+
+23. **Contador de caracteres:** Pide una cadena de texto y cuenta cuántas veces aparece la letra "a".
+
+24. **Promedio de notas:** Pide al usuario cuántas notas quiere ingresar, recíbelas y calcula el promedio final.
+
+25. **Buscador de elementos:** Dada una lista de nombres, verifica si "Luis" está presente e imprime su posición.
+    
+26. **Factorial:** Calcula el factorial de un número usando un bucle for ($n!$).
+    
+27. **Dibujo de patrones:** Imprime un triángulo de asteriscos de $N$ filas (ej: *, , ***).
+    
+28. **Inversión de cadena:** Pide una palabra y muéstrala letra por letra en orden inverso.
+    
+29. **Filtrado de datos:** Dada una lista de números [10, 55, 42, 12, 80, 21], imprime solo aquellos mayores a 50.
+    
+30. **Validación de entrada:** Simula un login que pida una contraseña y solo termine cuando el usuario escriba la correcta ("Python123").
