@@ -59,6 +59,7 @@ Parte, en donde vemos el entorno de trabajo y aprendemos a crear nuestros primer
 Lista de ejercicios diseñada para reforzar los temas del curso: desde la lógica pura hasta la implementación en Python.
 
 - [Clase 11: Ejercicios de Fundamentos de Programación y Python](#-clase-11-ejercicios-de-fundamentos-de-programación-y-python)
+- [Clase 12: El Poder de las Funciones en Python](#-clase-12-el-poder-de-las-funciones-en-python)
 
 ---
 
@@ -1314,3 +1315,109 @@ for numero in range(1, 6):
 29. **Filtrado de datos:** Dada una lista de números [10, 55, 42, 12, 80, 21], imprime solo aquellos mayores a 50.
     
 30. **Validación de entrada:** Simula un login que pida una contraseña y solo termine cuando el usuario escriba la correcta ("Python123").
+
+---
+
+## ✍ Clase 12: El Poder de las Funciones en Python
+
+> Las **funciones** son bloques de código reutilizables diseñados para realizar una sola acción. Imagina que es una "receta" que guardas y puedes ejecutar cada vez que la necesites sin tener que escribir todos los pasos de nuevo.
+
+### Estructura básica de una función
+Para crear una función usamos la palabra clave `def` (de *define*), seguida del nombre de la función y paréntesis `()`.
+
+```python
+def mi_primera_funcion():
+    # Cuerpo de la función (con sangría/indentación)
+    print("¡Hola! Estoy dentro de la función.")
+
+# Para que el código se ejecute, debemos LLAMAR a la función
+mi_primera_funcion()
+```
+
+---
+
+### Ejemplos
+
+A continuación, veremos cómo las funciones evolucionan desde lo más simple hasta manejar lógica compleja.
+
+### 1. Función Simple (Sin parámetros)
+**Concepto:** Definición y llamada básica.
+```python
+def saludar_comunidad():
+    print("Bienvenidos al curso de Python para Latam 🌎")
+
+saludar_comunidad()
+```
+
+---
+
+### 2. Función con Parámetros
+**Concepto:** Pasar información a la función para que sea dinámica.
+```python
+def saludar_personalizado(nombre, ciudad):
+    print(f"Hola {nombre}, un saludo hasta {ciudad}.")
+
+# Enviamos los "argumentos"
+saludar_personalizado("María", "Ciudad de México")
+saludar_personalizado("Luis", "Lima")
+```
+
+---
+
+### 3. Función con Retorno (`return`)
+**Concepto:** La función no solo imprime, sino que nos "devuelve" un valor para usarlo después.
+```python
+def calcular_iva(monto):
+    impuesto = monto * 0.16
+    return impuesto
+
+# Guardamos el resultado en una variable
+iva_a_pagar = calcular_iva(100)
+print(f"El impuesto a pagar es: {iva_a_pagar}")
+```
+
+---
+
+### 4. Parámetros por Defecto
+**Concepto:** Valores predeterminados si el usuario no envía nada.
+```python
+def inscribir_estudiante(nombre, curso="Python Básico"):
+    print(f"Estudiante {nombre} inscrito con éxito al curso: {curso}")
+
+inscribir_estudiante("Carlos") # Usa el valor por defecto
+inscribir_estudiante("Ana", "Análisis de Datos") # Sobrescribe el valor
+```
+
+---
+
+### 5. Lógica Compleja dentro de la Función
+**Concepto:** Combinar condicionales y múltiples retornos.
+```python
+def evaluar_desempeno(puntaje):
+    if puntaje >= 90:
+        return "Excelente"
+    elif puntaje >= 70:
+        return "Aprobado"
+    else:
+        return "Reprobado"
+
+resultado = evaluar_desempeno(85)
+print(f"Tu estatus final es: {resultado}")
+```
+
+---
+
+### Tarea: ¡Pon a prueba tu lógica!
+
+Copia estos ejercicios en tu editor y trata de resolverlos. Recuerda que la práctica es lo que hace al programador.
+
+1.  **Calculadora de Área:** Crea una función llamada `area_rectangulo` que reciba `base` y `altura` y devuelva el área (Base × Altura).
+2.  **Conversor de Moneda:** Escribe una función que reciba un monto en dólares y lo convierta a tu moneda local (usa un tipo de cambio fijo).
+3.  **Verificador de Paridad:** Crea una función llamada `es_par` que reciba un número y devuelva `True` si es par y `False` si es impar (Tip: usa el operador `%`).
+4.  **Contador de Caracteres:** Crea una función que reciba una frase y devuelva cuántas letras tiene (usa la función `len()`).
+5.  **Simulador de Cajero:** Crea una función llamada `retirar_dinero` que reciba `saldo_actual` y `monto_a_retirar`. 
+    *   Si el monto es menor o igual al saldo, devuelve el nuevo saldo.
+    *   Si el monto es mayor, devuelve un mensaje que diga "Fondos insuficientes".
+
+---
+> **Tip Pro:** En Python, el orden importa. Siempre debes definir la función **antes** de intentar llamarla en tu código.
